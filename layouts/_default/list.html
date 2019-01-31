@@ -6,7 +6,7 @@
 {{/* Loops through and displays all child pages */}}
 <h2>Pages</h2>
 <ul>
-{{ range .Data.Pages }}
+{{ range .Site.Pages }}
 <li>
   <a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a>
 </li>
