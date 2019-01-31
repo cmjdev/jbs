@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "/jbs"
 title = "Creative portfolio"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
