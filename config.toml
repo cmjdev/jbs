@@ -23,6 +23,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 # E.g,  if your /post/first/ page contains a link 
 # to /about/, Hugo will rewrite the URL to ../../about/
 relativeURLs = true
+sourceRelativeLinksEval=true
 
 # Enable to have links open in new tab
 hrefTargetBlank = false
