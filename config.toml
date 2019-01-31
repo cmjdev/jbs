@@ -2,7 +2,7 @@
 # --------------
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ .Site.Params.myvariable }}.
-baseurl = "/" # The subpath of your site, e.g. / or /blog
+baseurl = "cmjdev.github.io/jbs" # The subpath of your site, e.g. / or /blog
 languageCode = "en-us"
 languageLang = "en"
 defaultContentLanguage = "en"
@@ -22,8 +22,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 # Enable this to have links relativized by Hugo
 # E.g,  if your /post/first/ page contains a link 
 # to /about/, Hugo will rewrite the URL to ../../about/
-relativeURLs = true
-sourceRelativeLinksEval=true
+relativeURLs = false
 
 # Enable to have links open in new tab
 hrefTargetBlank = false
