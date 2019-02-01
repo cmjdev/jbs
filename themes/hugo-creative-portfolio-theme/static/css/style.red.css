@@ -12,9 +12,17 @@ GENERAL
 */
 
 .vcenter {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
+
+  height: 100px;
+background: #323836;
+color: #FFF;
+margin-top: auto;
+margin-bottom: auto;
+position: relative;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
 }
 
 html,
