@@ -11,6 +11,18 @@ fields:
 - type: text
   name: booker
   label: Booker URL
+- type: text
+  name: email
+  label: Email
+- type: text
+  name: facebook
+  label: Facebook
+- type: text
+  name: instagram
+  label: Instagram
+- type: text
+  name: twitter
+  label: Twitter
 - type: file
   label: Selfie
   name: image
