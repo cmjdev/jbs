@@ -23,16 +23,11 @@
                       {{ end }}
                           <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                           <div class="box-masonry-description">
-						  {{ if .Phone }}
                             <p>
-                                  {{ .Phone }}
+                                {{ if .Params.booker }}
+                                  <a href="{{ .Params.booker }}">BOOK ME!</a>
+                                {{ end }}
                             </p>
-							{{ end }}
-							{{ if .Email }}
-                            <p>
-                                  {{ .Email }}
-                            </p>
-							{{ end }}
                           </div>
                       </div>
                   </div>
