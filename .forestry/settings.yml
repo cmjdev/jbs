@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: content/barbers
   label: Barbers
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - barber
