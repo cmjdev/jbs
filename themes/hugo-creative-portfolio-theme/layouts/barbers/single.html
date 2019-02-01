@@ -1,22 +1,3 @@
-<!--{{ define "main" }}
-<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
-  {{ partial "mobile_nav_toggle.html" . }}
-  <div class="row">
-    <div class="col-sm-4">
-      <h1>{{ .Title }}</h1>
-         {{ partial "social_buttons_in_barber.html" . }}
-         {{ if and (isset .Params "image") .Params.image }}
-             <img src="{{.Params.image | absURL}}" alt="" class="img-thumbnail">
-       {{ end }}
-         <div class="col-sm-4">
-         {{ .Content }}
-      </div>
-    </div>
-  </div>Will it load?
-</div>
-
-{{ end }}
--->
 {{ define "main" }}
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   {{ partial "mobile_nav_toggle.html" . }}
