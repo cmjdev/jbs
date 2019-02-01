@@ -29,8 +29,7 @@ fields:
 - type: tag_list
   label: tags
   name: tags
-  default:
-  - Chad Jones
+  default: []
 pages:
 - content/barbers/chad-jones.md
 - content/barbers/amy-koe-ranbarger.md
