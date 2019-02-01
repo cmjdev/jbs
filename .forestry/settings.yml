@@ -26,7 +26,6 @@ sections:
 - type: document
   path: other/default-tags.md
   label: Default Tags
-  match: "**/*"
 upload_dir: static/img/portfolio
 public_path: "/jbs/img/portfolio"
 front_matter_path: ''
