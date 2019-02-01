@@ -26,7 +26,7 @@ sections:
 - type: directory
   path: other
   label: Other
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - tags

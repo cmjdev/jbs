@@ -12,8 +12,14 @@ fields:
 - type: boolean
   name: showonlyimage
   label: showonlyimage
-- type: tag_list
+- type: select
   name: tags
+  config:
+    source:
+      type: documents
+      section: other
+      file: other/default-tags.md
+      path: tags
   label: Tags
 pages:
 - content/portfolio/new-sign.md

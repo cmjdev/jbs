@@ -6,3 +6,6 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+pages:
+- other/default-tags.md
+- other/default-categories.md
