@@ -1,7 +1,6 @@
 {{ define "main" }}
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   {{ partial "mobile_nav_toggle.html" . }}
-  <section class="background-gray-lightest">
     <div class="row">
     <div class="col-lg-4">
       <div class="content-column-content">
@@ -14,11 +13,10 @@
       </div>
     </div>
     <div class="col-lg-4">
-        <div class="content-column-content" style="vertical-align: middle;">
+        <div class="content-column-content">
            {{ .Content }}
         </div>
       </div>
   </div>
-</section>
 </div>
 {{ end }}

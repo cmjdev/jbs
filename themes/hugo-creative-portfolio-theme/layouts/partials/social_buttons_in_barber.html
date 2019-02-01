@@ -49,4 +49,8 @@
     <i class="fa fa-whatsapp"></i>
   </a>
   {{end}}
+  {{ with .Params.booker }}
+  <h4><a href="{{ . }}" class="external">Schedule an appointment!</a></h4>
+  </a>
+  {{end}}
 </p>
