@@ -23,13 +23,6 @@ sections:
   label: Contact
   create: all
   match: "**/*"
-- type: directory
-  path: other
-  label: Other
-  create: all
-  match: "**/*"
-  templates:
-  - tags
 upload_dir: static/img/portfolio
 public_path: "/jbs/img/portfolio"
 front_matter_path: ''
