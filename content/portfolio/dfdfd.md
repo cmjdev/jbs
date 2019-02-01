@@ -5,6 +5,6 @@ image = "/jbs/img/portfolio/label-clothes.jpg"
 showonlyimage = false
 tag = []
 tags = ["chad", "chad jones"]
-title = "dfdfd"
+title = "dfdfdh"
 
 +++
