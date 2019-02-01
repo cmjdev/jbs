@@ -9,4 +9,4 @@ title = "Mr. T."
 twitter = "google.com"
 
 +++
-Bio information for Mr. T! BLUE
+Bio information for Mr. T!
