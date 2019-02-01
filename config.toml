@@ -14,7 +14,7 @@ languageCode = "en-us"
   description = "Jones' Barber Shop"
   copyright = "&copy;2019 Jones' Barber Shop"
   sidebarAbout = [
-    "We cut hair and shit.. Mission statement here"
+    "If you’re looking for fun conversation with a great atmosphere, look no further!"
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
