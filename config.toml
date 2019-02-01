@@ -11,8 +11,8 @@ languageCode = "en-us"
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "red"
-  description = "Describe your website"
-  copyright = "&copy;2019 Jones' Barbershop"
+  description = "Jones' Barber Shop"
+  copyright = "&copy;2019 Jones' Barber Shop"
   sidebarAbout = [
     "We cut hair and shit.. Mission statement here"
   ]
