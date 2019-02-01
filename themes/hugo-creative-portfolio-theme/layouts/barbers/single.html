@@ -7,7 +7,6 @@
          {{ partial "social_buttons_in_barber.html" . }}
          {{ if and (isset .Params "image") .Params.image }}
              <img src="{{.Params.image | absURL}}" alt="" class="img-thumbnail">
-         </a>
        {{ end }}
       </div>
          <div class="col-sm-4">
