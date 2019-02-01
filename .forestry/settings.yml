@@ -9,6 +9,8 @@ sections:
   label: Barbers
   create: all
   match: "**/*"
+  templates:
+  - barber
 - type: directory
   path: content/portfolio
   label: Portfolio
