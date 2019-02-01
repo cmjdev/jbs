@@ -1,10 +1,10 @@
 {{ define "main" }}
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   {{ partial "mobile_nav_toggle.html" . }}
-  <div class="row">
-    <div class="col-lg-2">
+  <div class="row">{{ partial "social_buttons_in_barber.html" . }}
+    <div class="col-lg-4">
       <div class="content-column-content">
-          {{ partial "social_buttons_in_barber.html" . }}
+          
          <h1>{{ .Title }}</h1>
 
          {{ if and (isset .Params "image") .Params.image }}
@@ -12,7 +12,7 @@
        {{ end }}
       </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-4">
         <div class="content-column-content">
   
            {{ .Content }}
