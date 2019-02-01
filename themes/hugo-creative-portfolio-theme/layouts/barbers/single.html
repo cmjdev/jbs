@@ -1,9 +1,10 @@
 {{ define "main" }}
-<div class="col-xs-12 col-sm-8 col-md-9 content-column">
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   {{ partial "mobile_nav_toggle.html" . }}
+  <section class="background-gray-lightest">
     <div class="row">
     <div class="col-lg-4">
-      <div class="content-columnt white-background">
+      <div class="content-column-content>
           
          <h1>{{ .Title }}</h1>
          {{ partial "social_buttons_in_barber.html" . }}
@@ -13,12 +14,11 @@
       </div>
     </div>
     <div class="col-lg-4">
-        <div class="content-column white-background">
-  <span class="align-middle">
+        <div class="content-column-content" style="vertical-align: middle;">
            {{ .Content }}
-          </span>
         </div>
       </div>
   </div>
+</section>
 </div>
 {{ end }}
