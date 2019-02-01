@@ -13,4 +13,5 @@ fields:
   name: showonlyimage
   label: showonlyimage
 pages:
+- content/portfolio/new-sign.md
 - content/portfolio/undercut.md
