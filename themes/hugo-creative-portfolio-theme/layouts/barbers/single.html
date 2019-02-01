@@ -9,7 +9,7 @@
          <h1>{{ .Title }}</h1>
          {{ partial "social_buttons_in_barber.html" . }}
          {{ if and (isset .Params "image") .Params.image }}
-             <img src="{{.Params.image | absURL}}" alt="" style="max-height: 200px;">
+             <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
        {{ end }}
       </div>
     </div>
