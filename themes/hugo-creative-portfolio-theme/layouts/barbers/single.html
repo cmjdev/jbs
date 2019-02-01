@@ -24,7 +24,7 @@
 <div class="col-xs-12 col-sm-8 col-md-9 content-column">
     <div class="grid">
         <div class="row">
-            {{ range .Site.Taxonomies.series.chad }}
+            {{ range .Site.Taxonomies.tags.chad }}
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
                   <div class="box-masonry">
                       {{ if and (isset .Params "image") .Params.image }}
