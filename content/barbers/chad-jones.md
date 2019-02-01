@@ -7,4 +7,4 @@ facebook = "https://www.facebook.com/pg/JonesBarberShop317"
 email = "mailto:chad.b.jones2380@icloud.com"
 instagram = "https://instagram.com/theotherchadthebarber"
 +++
-Bio information goes here.. or not?
+Bio information goes here.. or not
