@@ -6,4 +6,4 @@ phone = "317-331-4261"
 title = "Chad Jones"
 
 +++
-Chad's the man!  Put some bio information here.. or not.
+Chad's the man!  Put some bio information here.. or not. Noone cares
