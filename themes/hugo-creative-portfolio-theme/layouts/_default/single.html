@@ -8,7 +8,6 @@
          {{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}
          {{ if and (isset .Params "image") .Params.image }}
              <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
-         </a>
        {{ end }}
 
          {{ .Content }}
