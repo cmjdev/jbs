@@ -8,3 +8,4 @@ fields:
   label: Tags
 pages:
 - other/default-tags.md
+- other/default-categories.md
