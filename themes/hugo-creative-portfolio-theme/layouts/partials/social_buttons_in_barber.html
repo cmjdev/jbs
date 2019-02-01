@@ -1,26 +1,26 @@
-<p class="social social--big">
+<p class="social">
   {{ with .Params.facebook }}
-  <a href="{{ . }}" class="facebook">
+  <a href="{{ . }}" class="external facebook">
     <i class="fa fa-facebook"></i>
   </a>
   {{end}}
   {{ with .Params.googleplus }}
-  <a href="{{ . }}" class="gplus">
+  <a href="{{ . }}" class="external gplus">
     <i class="fa fa-google-plus"></i>
   </a>
   {{end}}
   {{ with .Params.twitter }}
-  <a href="{{ . }}" class="twitter">
+  <a href="{{ . }}" class="external twitter">
     <i class="fa fa-twitter"></i>
   </a>
   {{end}}
   {{ with .Params.instagram }}
-  <a href="{{ . }}" title="" class="instagram">
+  <a href="{{ . }}" title="" class="external instagram">
     <i class="fa fa-instagram"></i>
   </a>
   {{end}}
   {{ with .Params.email }}
-  <a href="mailto:{{ . }}" class="email">
+  <a href="mailto:{{ . }}" class="external email">
     <i class="fa fa-envelope"></i>
   </a>
   {{end}}

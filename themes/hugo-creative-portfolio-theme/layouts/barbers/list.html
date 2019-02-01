@@ -22,12 +22,6 @@
                       <div class="box-masonry-text">
                       {{ end }}
                           <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                          {{ if .Params.phone }}
-						  <h6 align="center">{{ .Params.phone }}</a></h6>
-                          {{ end }}
-                          {{ if .Params.email }}
-						  <h6 align="center">{{ .Params.email }}</a></h6>
-                          {{ end }}
 						  {{ if .Params.booker }}
 						  <h5 align="center"><a href="{{ .Params.booker }}">Schedule an appointment!</a></h5>
                           {{ end }}
