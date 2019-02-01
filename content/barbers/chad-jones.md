@@ -5,7 +5,7 @@ email = "chad.b.jones2380@icloud.com"
 facebook = "https://www.facebook.com/pg/JonesBarberShop317"
 image = "/jbs/img/portfolio/2019/02/01/42647531_660732377628327_8638092475447115776_n.jpg"
 instagram = "https://instagram.com/theotherchadthebarber"
-tags = ["Chad Jones"]
+tags = ["chad"]
 title = "Chad Jones"
 twitter = ""
 

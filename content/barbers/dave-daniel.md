@@ -5,6 +5,7 @@ email = ""
 facebook = "https://www.facebook.com/DaveD1315"
 image = "/jbs/img/portfolio/2019/02/01/44126904_10217374938627210_1698493427643056128_n.jpg"
 instagram = "https://www.instagram.com/barberdavewayne/"
+tags = ["Dave Daniel"]
 title = "Dave Daniel"
 twitter = ""
 

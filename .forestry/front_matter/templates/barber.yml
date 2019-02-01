@@ -32,5 +32,5 @@ fields:
   default: []
 pages:
 - content/barbers/chad-jones.md
-- content/barbers/amy-koe-ranbarger.md
 - content/barbers/dave-daniel.md
+- content/barbers/amy-koe-ranbarger.md
