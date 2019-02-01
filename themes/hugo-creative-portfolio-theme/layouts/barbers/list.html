@@ -23,13 +23,16 @@
                       {{ end }}
                           <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                           <div class="box-masonry-description">
+						  {{ if .Phone }}
                             <p>
-                                {{ if .Description }}
-                                  {{ .Description }}
-                                {{ else }}
-                                  {{ .Summary }}
-                                {{ end }}
+                                  {{ .Phone }}
                             </p>
+							{{ end }}
+							{{ if .Email }}
+                            <p>
+                                  {{ .Email }}
+                            </p>
+							{{ end }}
                           </div>
                       </div>
                   </div>
