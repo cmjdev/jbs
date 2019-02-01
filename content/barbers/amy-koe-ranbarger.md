@@ -5,7 +5,7 @@ email = ""
 facebook = "https://www.facebook.com/amy.koeranbarger.1"
 image = "/jbs/img/portfolio/2019/02/01/50471966_105137800604831_5550398082140602368_n.jpg"
 instagram = ""
-tags = ["Amy Koe-Ranbarger"]
+tags = ["amy"]
 title = "Amy Koe-Ranbarger"
 twitter = ""
 
