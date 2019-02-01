@@ -12,6 +12,13 @@ fields:
 - type: boolean
   name: showonlyimage
   label: showonlyimage
+- type: select
+  config:
+    source:
+      type: pages
+  name: barber
+  description: Who's responsible!?
+  label: Barber
 pages:
 - content/portfolio/new-sign.md
 - content/portfolio/undercut.md
