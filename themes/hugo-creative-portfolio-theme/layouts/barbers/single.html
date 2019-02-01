@@ -2,25 +2,22 @@
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   {{ partial "mobile_nav_toggle.html" . }}
   <div class="row">
-    <div class="content-column-content">
-  {{ partial "social_buttons_in_barber.html" . }}
-</div>
-</div>
-  <div class="row">
     <div class="col-lg-4">
       <div class="content-column-content">
-          
+          <section class="background-gray-lighter">
          <h1>{{ .Title }}</h1>
-
+         {{ partial "social_buttons_in_barber.html" . }}
          {{ if and (isset .Params "image") .Params.image }}
              <img src="{{.Params.image | absURL}}" alt="" style="max-height: 200px;">
        {{ end }}
+      </section>
       </div>
     </div>
     <div class="col-lg-4">
         <div class="content-column-content">
-  
+  <span class="align-middle">
            {{ .Content }}
+          </span>
         </div>
       </div>
   </div>
