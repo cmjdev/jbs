@@ -12,18 +12,11 @@ fields:
 - type: boolean
   name: showonlyimage
   label: showonlyimage
-- type: select
+- type: tag_list
   name: tags
-  config:
-    source:
-      type: documents
-      section: other
-      file: other/default-tags.md
-      path: tags
-  label: Tags
+  label: tags
 pages:
 - content/portfolio/new-sign.md
-- content/portfolio/dfdfd.md
 - content/portfolio/toooots.md
 - content/portfolio/rad-cut.md
 - content/portfolio/asdf.md
