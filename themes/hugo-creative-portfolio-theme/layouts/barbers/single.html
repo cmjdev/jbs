@@ -18,7 +18,7 @@
 </div>
 <div class="col-xs-12 col-sm-8 col-md-9 content-column">
 
-          {{ .Site.Taxonomies.tag.chad-jones }}
+          {{ range eq .Site.Taxonomies.tag "Chad Jones" }}
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
                   <div class="box-masonry">
                       {{ if and (isset .Params "image") .Params.image }}
