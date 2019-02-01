@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: data/defaultTags
-  label: Tags
-  match: "**/*"
-  read_only: false
 - type: directory
   path: content/barbers
   label: Barbers
@@ -28,6 +23,8 @@ sections:
   label: Contact
   create: all
   match: "**/*"
+- type: heading
+  label: Other
 upload_dir: static/img/portfolio
 public_path: "/jbs/img/portfolio"
 front_matter_path: ''
