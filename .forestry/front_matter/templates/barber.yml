@@ -26,6 +26,10 @@ fields:
 - type: file
   label: Selfie
   name: image
+- type: tag_list
+  label: tags
+  name: tags
+  default: []
 pages:
 - content/barbers/chad-jones.md
 - content/barbers/amy-koe-ranbarger.md
