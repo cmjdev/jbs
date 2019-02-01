@@ -23,9 +23,13 @@ sections:
   label: Contact
   create: all
   match: "**/*"
-- type: document
-  path: other/default-tags.md
-  label: Default Tags
+- type: directory
+  path: other
+  label: Other
+  create: documents
+  match: "**/*"
+  templates:
+  - tags
 upload_dir: static/img/portfolio
 public_path: "/jbs/img/portfolio"
 front_matter_path: ''
