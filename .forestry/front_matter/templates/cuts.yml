@@ -13,11 +13,8 @@ fields:
   name: showonlyimage
   label: showonlyimage
 - type: tag_list
-  name: tag
-  label: Barber
-- type: tag_list
-  name: categories
-  label: Service
+  name: tags
+  label: Tags
 pages:
 - content/portfolio/new-sign.md
 - content/portfolio/dfdfd.md
