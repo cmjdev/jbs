@@ -8,12 +8,12 @@
          <h1>{{ .Title }}</h1>
 
          {{ if and (isset .Params "image") .Params.image }}
-             <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
+             <img height="200" src="{{.Params.image | absURL}}" alt="" class="img-responsive">
          <!--</a>-->
        {{ end }}
-      </div>>
+      </div>
     </div>
-    <div class="col>
+    <div class="col">
       <div class="content-column-content float-right">
   
            {{ .Content }}
