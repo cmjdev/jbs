@@ -7,6 +7,15 @@ languageCode = "en-us"
 # Enable Google Analytics by entering your tracking code
 # googleAnalytics = ""
 
+[related]
+threshold = 80
+includeNewer = true
+toLower = false
+
+[[related.indices]]
+name = "tags"
+weight = 100
+
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
