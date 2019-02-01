@@ -9,4 +9,4 @@ title = "Dave Daniel"
 twitter = ""
 
 +++
-DAVES BIO HERE
+DAVE'S BIO HERE
