@@ -12,12 +12,12 @@ fields:
 - type: boolean
   name: showonlyimage
   label: showonlyimage
-- type: select
-  config:
-    source:
-      type: pages
-  name: barber
-  description: Who's responsible!?
+- type: tag_list
+  name: tag
   label: Barber
+- type: tag_list
+  name: categories
+  label: Service
 pages:
 - content/portfolio/new-sign.md
+- content/portfolio/rad-cut.md
