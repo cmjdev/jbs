@@ -3,7 +3,7 @@
   {{ partial "mobile_nav_toggle.html" . }}
   <div class="row">
     <div class="col">
-      <div class="content-column-content">
+      <!--<div class="content-column-content">-->
           {{ partial "social_buttons_in_barber.html" . }}
          <h1>{{ .Title }}</h1>
 
@@ -11,16 +11,14 @@
              <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
          <!--</a>-->
        {{ end }}
-
-         {{ .Content }}
-      </div>
+      <!--</div>>-->
     </div>
     <div class="col-8">
-        <div class="content-column-content">
+      <!--<div class="content-column-content">-->
   
            {{ .Content }}
         </div>
-      </div>
+      <!--</div>-->
   </div>
 </div>
 {{ end }}
