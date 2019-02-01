@@ -3,10 +3,9 @@ label: Cuts
 hide_body: false
 is_partial: false
 fields:
-- type: datetime
-  label: Date
-  name: date
-  hidden: false
+- type: text
+  name: title
+  label: Title
 - type: file
   name: image
   label: image
