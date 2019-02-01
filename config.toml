@@ -8,9 +8,9 @@ languageCode = "en-us"
 # googleAnalytics = ""
 
 [related]
-threshold = 80
+threshold = 50
 includeNewer = true
-toLower = false
+toLower = true
 
 [[related.indices]]
 name = "tags"
