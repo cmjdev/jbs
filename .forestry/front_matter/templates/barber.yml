@@ -1,0 +1,20 @@
+---
+label: Barber
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Name
+  config:
+    required: true
+- type: text
+  name: booker
+  label: Booker URL
+- type: file
+  label: Selfie
+  name: image
+pages:
+- content/barbers/chad-jones.md
+- content/barbers/amy-koe-ranbarger.md
+- content/barbers/dave-daniel.md
