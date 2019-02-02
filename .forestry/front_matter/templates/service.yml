@@ -16,6 +16,7 @@ fields:
   name: image
   label: Example
 pages:
+- content/services/undercut-design.md
 - content/services/men-s-haircut.md
 - content/services/young-man-s-haircut.md
 - content/services/line-up.md
