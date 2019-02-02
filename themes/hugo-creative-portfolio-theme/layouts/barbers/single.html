@@ -12,13 +12,13 @@
       </div>
     </div>
 </div>
-    <div class="row">
+    <div class="row" style="background: #EEE;">
         <div class="col-lg-4">
          {{ if and (isset .Params "image") .Params.image }}
              <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
        {{ end }}
       </div>
-    <div class="col-lg-4" style="background: #CCC;">
+    <div class="col-lg-4">
         <div class="content-column-content" >
            {{ .Content }}
         </div>
