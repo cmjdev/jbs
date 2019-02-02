@@ -20,10 +20,10 @@
                           <div class="box-masonry-hover-text-header">
                           {{ else }}
                           <div class="box-masonry-text">
-                          {{ end }}
+                          {{ end }}<p style="text-align: center;">
                               <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                               <div class="box-masonry-description">
-                                <p>
+                                
                                     {{ if .Params.booker }}
                                       <h5><a href="{{ .Params.booker }}">Schedule an appointment!</a></h5>
                                     {{ end }}
