@@ -15,3 +15,5 @@ fields:
 - type: file
   name: image
   label: Example
+pages:
+- content/services/men-s-haircut.md
