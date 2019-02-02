@@ -23,8 +23,9 @@
                           {{ end }}
                               <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                               <div class="box-masonry-description">
+                                
                                     {{ if .Params.booker }}
-                                      <h5><a href="{{ .Params.booker }}" class="btn btn-danger external">Schedule an appointment!</a></h5>
+                                      <h5><a href="{{ .Params.booker }}" >Schedule an appointment!</a></h5>
                                     {{ end }}
                               </div>
                           </div>
