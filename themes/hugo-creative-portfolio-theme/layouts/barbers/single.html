@@ -2,13 +2,6 @@
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   {{ partial "mobile_nav_toggle.html" . }}
 
-    <div class="row">
-    <div class="col-lg-8">
-      <div class="content-column-content">
-         {{ partial "social_buttons_in_barber.html" . }}
-      </div>
-    </div>
-</div>
     <div class="row" style="background: #EEE;">
         <div class="col-lg-4">
          {{ if and (isset .Params "image") .Params.image }}
@@ -18,6 +11,7 @@
     <div class="col-lg-4">
         <div class="content-column-content" >
                 <h2 style="padding-top: 1em;">{{ .Title }}</h2>
+                {{ partial "social_buttons_in_barber.html" . }}
            {{ .Content }}
         </div>
       </div>
