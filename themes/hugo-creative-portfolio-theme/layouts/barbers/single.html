@@ -3,20 +3,24 @@
   {{ partial "mobile_nav_toggle.html" . }}
 
     <div class="row">
-    <div class="col-lg-4">
+    <div class="col-lg-8">
       <div class="content-column-content">
 
           
          <h1>{{ .Title }}</h1>
          {{ partial "social_buttons_in_barber.html" . }}
+      </div>
+    </div>
+</div>
+    <div class="row">
+        <div class="col-lg-4">
          {{ if and (isset .Params "image") .Params.image }}
              <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
        {{ end }}
       </div>
-    </div>
     <div class="col-lg-4">
-        <div class="content-column-content" style="height: 20em;">
-           <div class="vcenter">{{ .Content }}</div>
+        <div class="content-column-content">
+           {{ .Content }}
         </div>
       </div>
   </div>
