@@ -5,9 +5,6 @@
     <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-
-          
-         <h1>{{ .Title }}</h1>
          {{ partial "social_buttons_in_barber.html" . }}
       </div>
     </div>
@@ -20,6 +17,7 @@
       </div>
     <div class="col-lg-4">
         <div class="content-column-content" >
+                <h2>{{ .Title }}</h2>
            {{ .Content }}
         </div>
       </div>
