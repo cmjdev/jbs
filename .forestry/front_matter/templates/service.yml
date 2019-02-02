@@ -1,0 +1,17 @@
+---
+label: Service
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Service
+- type: text
+  name: duration
+  label: Duration
+- type: text
+  name: price
+  label: Price
+- type: file
+  name: image
+  label: Example
