@@ -49,6 +49,10 @@ weight = 100
   name = "Barbers"
   url = "barbers/"
 
+    [[params.navlinks]]
+  name = "Services"
+  url = "services/"
+
   [[params.navlinks]]
   name = "Get in touch"
   url = "contact/"
