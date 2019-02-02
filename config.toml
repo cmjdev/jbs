@@ -41,7 +41,7 @@ weight = 100
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Home"
+  name = "Portfolio"
   url = "portfolio/"
   home = true
 
