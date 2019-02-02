@@ -23,6 +23,7 @@
                           {{ end }}
                               <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                               <div class="box-masonry-description">
+                                  <h5>{{ .Params.price }}</h5>
                                 {{ .Content }}
                                     {{ if .Params.booker }}
                                       <h5><a href="{{ .Params.booker }}" >Schedule an appointment!</a></h5>
