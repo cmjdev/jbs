@@ -8,9 +8,11 @@
              <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
        {{ end }}
       </div>
-    <div class="col-lg-6">
+    <div class="col-lg-4">
         <div class="content-column-content" >
                 <h2 style="padding-top: 1em;">{{ .Title }}</h2>
+                <h5>{{ .Params.price }}</h5>
+                
                 {{ partial "social_buttons_in_barber.html" . }}
            {{ .Content }}
         </div>
