@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<div class="w3-display-container w3-center" style="max-height:100vh">
+    <img src="{{ .Params.image }}" style="width:100%; filter:opacity(40%)">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-padding-large">
+        <h1>{{ .Title }}</h1> 
+
+        {{ partial "barber-socials" . }}
+              <p class="w3-opacity">{{ .Content }}</p>  
+    </div>
+</div>
+
+{{ end }}

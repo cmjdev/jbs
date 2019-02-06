@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chad on Jones&#39; Barber Shop</title>
+    <link>/jbs/tags/chad/</link>
+    <description>Recent content in Chad on Jones&#39; Barber Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2019 22:00:26 +0000</lastBuildDate>
+    
+	<atom:link href="/jbs/tags/chad/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Close</title>
+      <link>/jbs/portfolio/getting-close/</link>
+      <pubDate>Tue, 05 Feb 2019 22:00:26 +0000</pubDate>
+      
+      <guid>/jbs/portfolio/getting-close/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>4 years later</title>
+      <link>/jbs/portfolio/4-years-later/</link>
+      <pubDate>Fri, 01 Feb 2019 21:23:19 +0000</pubDate>
+      
+      <guid>/jbs/portfolio/4-years-later/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chad Jones</title>
+      <link>/jbs/barbers/chad-jones/</link>
+      <pubDate>Fri, 01 Feb 2019 03:09:07 +0000</pubDate>
+      
+      <guid>/jbs/barbers/chad-jones/</guid>
+      <description>Bio information goes here.. or not</description>
+    </item>
+    
+  </channel>
+</rss>

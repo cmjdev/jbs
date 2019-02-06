@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Jones&#39; Barber Shop</title>
+    <link>/jbs/services/</link>
+    <description>Recent content in Services on Jones&#39; Barber Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Feb 2019 18:47:57 +0000</lastBuildDate>
+    
+	<atom:link href="/jbs/services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shave</title>
+      <link>/jbs/services/shave/</link>
+      <pubDate>Sat, 02 Feb 2019 18:47:57 +0000</pubDate>
+      
+      <guid>/jbs/services/shave/</guid>
+      <description> Quick Shave: Lay back,close your eyes and we’ll shave your face with a safety razor. $10 Hot Towel Shave: Just like Grandpas Barber used to do it! $25  </description>
+    </item>
+    
+    <item>
+      <title>Undercut &amp; Design</title>
+      <link>/jbs/services/undercut-design/</link>
+      <pubDate>Sat, 02 Feb 2019 18:44:23 +0000</pubDate>
+      
+      <guid>/jbs/services/undercut-design/</guid>
+      <description>The ladies are really digging their undercuts these days,and a design really catches people’s eyes! From flowers to stars to cool freestyles!</description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>/jbs/services/design/</link>
+      <pubDate>Sat, 02 Feb 2019 18:41:52 +0000</pubDate>
+      
+      <guid>/jbs/services/design/</guid>
+      <description>Designs are fun for EVERYONE! From “freestyles” to detailed logo’s,we like doing them! Please contact us for specific pricing on your design.</description>
+    </item>
+    
+    <item>
+      <title>Beard Trim</title>
+      <link>/jbs/services/beard-trim/</link>
+      <pubDate>Sat, 02 Feb 2019 18:40:28 +0000</pubDate>
+      
+      <guid>/jbs/services/beard-trim/</guid>
+      <description> Short Beard Trim. “Guard Length” with the outline (razor on the cheeks). $10 Long Beard Trim. The “long beard trim” requires a little more time and skill. $20  </description>
+    </item>
+    
+    <item>
+      <title>Line Up</title>
+      <link>/jbs/services/line-up/</link>
+      <pubDate>Sat, 02 Feb 2019 18:37:34 +0000</pubDate>
+      
+      <guid>/jbs/services/line-up/</guid>
+      <description>It’s simple. We’ll trim the outline of your previous haircut to get you by till your next cut. ONLY THE OUTLINE. NO LENGTH CUT OFF.</description>
+    </item>
+    
+    <item>
+      <title>Young Man&#39;s Haircut</title>
+      <link>/jbs/services/young-man-s-haircut/</link>
+      <pubDate>Sat, 02 Feb 2019 18:34:45 +0000</pubDate>
+      
+      <guid>/jbs/services/young-man-s-haircut/</guid>
+      <description>From “regular boys cut” to “Faux Hawks” to “bald fades” to “hard parts”, we can do it!</description>
+    </item>
+    
+    <item>
+      <title>Men&#39;s Haircut</title>
+      <link>/jbs/services/men-s-haircut/</link>
+      <pubDate>Sat, 02 Feb 2019 18:32:48 +0000</pubDate>
+      
+      <guid>/jbs/services/men-s-haircut/</guid>
+      <description>No need to “fancy up” the description&amp;hellip; Tell us how you like it to look,we’ll do the rest!
+ Buzz Cut $12 Active/Veteran/First Responder $20 Senior $18 Standard Men’s cut $23  </description>
+    </item>
+    
+  </channel>
+</rss>
