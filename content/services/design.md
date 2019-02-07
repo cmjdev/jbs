@@ -1,9 +1,13 @@
 +++
 date = "2019-02-02T18:41:52+00:00"
-duration = ""
+duration = "10min"
 image = "/jbs/img/portfolio/2019/02/02/42873590_661969090837989_6388249796754276352_n.jpg"
-price = "$5-$50"
+price = "$5"
 title = "Design"
 
 +++
-Designs are fun for EVERYONE! From “freestyles” to detailed logo’s,we like doing them! Please contact us for specific pricing on your design.
+You know those cool Stars and Sports numbers you see in those boy’s hair?! You guessed it! We do those!!!
+
+Our designs start at $6 ,and can get pricey (depending on what you want).
+
+Contact your Barber for specific pricing please.
