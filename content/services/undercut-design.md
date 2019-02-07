@@ -1,9 +1,9 @@
 +++
 date = "2019-02-02T18:44:23+00:00"
-duration = ""
-image = "/jbs/img/portfolio/2019/02/02/24993080_10213259600875974_8822585560118455830_n.jpg"
+duration = 30
+image = "/jbs/img/portfolio/2019/02/07/48994EBB-45DB-4C94-948D-03D31A03D1D5.jpeg"
 price = "$18"
 title = "Undercut & Design"
 
 +++
-The ladies are really digging their undercuts these days,and a design really catches people’s eyes! From flowers to stars to cool freestyles!
+Ladies!!! Give us an idea,let us go to work!!!
