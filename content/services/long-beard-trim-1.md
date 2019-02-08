@@ -1,6 +1,5 @@
 +++
 date = "2019-02-08T01:36:45+00:00"
-draft = true
 duration = 20
 image = "/jbs/img/portfolio/2019/02/07/AA5079D7-D0E6-4197-A028-84173D3330B3.jpeg"
 price = "$20"
