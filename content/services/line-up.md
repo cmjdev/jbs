@@ -1,9 +1,9 @@
 +++
 date = "2019-02-02T18:37:34+00:00"
-duration = ""
+duration = "10min"
 image = "/jbs/img/portfolio/2019/02/02/36177469_584666658568233_2721906421141602304_n.jpg"
 price = "$10"
 title = "Line Up"
 
 +++
-It’s simple. We’ll trim the outline of your previous haircut to get you by till your next cut. ONLY THE OUTLINE. NO LENGTH CUT OFF.
+Sometimes you don’t need a whole haircut,and a line-up is what you need to hold you over till your next haircut! A line-up is simple... we trim the outline of your hair (neck,temples,around the ears and forehead if needed). 
