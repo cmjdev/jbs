@@ -12,3 +12,5 @@ convienently  located in Greenwood Indiana across the street from the Greenwood 
  Greenwood,IN 46142
 
  317-360-9470
+
+ JonesBarberShop@icloud.com
