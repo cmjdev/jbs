@@ -1,4 +1,16 @@
 {{ define "main" }}
 
+<div class="wrapper w3-center">
+    {{ range .Pages }}
 
+    <div class="w3-card-4 w3-text-white w3-center" >
+        <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" alt="Person" style="width:100%"></a>
+        <div class="w3-container">
+            <h3>{{ .Title }}<h3><h3 class="w3-button w3-border w3-margin-bottom">BOOK NOW</h3>
+        </div>
+    </div>
+
+
+    {{ end }}
+</div>
 {{ end }}
