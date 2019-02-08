@@ -1,6 +1,6 @@
 +++
 date = "2019-02-02T18:40:28+00:00"
-duration = 15
+duration = 10
 image = "/jbs/img/portfolio/2019/02/02/42058807_656612601373638_1770016422806683648_n.jpg"
 price = "$10"
 title = "Short Beard Trim "
