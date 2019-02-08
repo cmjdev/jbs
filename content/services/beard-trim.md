@@ -12,4 +12,6 @@ Run a guard through it,give it a clean line and keep it moving!
 
 Our “Short Beard Trim” is finished with a straight razor! :::ON THE CHEEK LINE ONLY:::
 
+ ***Ask your Barber to add a “Cut Throat Shave” for an extra $5
+
 \*** Don’t forget to ask about our Beard products!
