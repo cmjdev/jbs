@@ -8,6 +8,8 @@ title = "Long Beard Trim "
 +++
 This isn’t just a Beard Trim... This is an Epic Event! A Man with a Beard like yours can’t trust just anyone with a set of clippers,and that’s why you chose us! We understand that your Beard is as important to you as a baby is to their mother!
 
-Our “Long Beard Trim” requires a little more finesse! We Shape your Beard like an artist carves a piece of marble! And finish with a clean Razor line on the cheeks!
+Our “Long Beard Trim” requires a little more finesse! We Shape your Beard like an artist carves a piece of marble! And finish with a clean Razor line on the cheeks! 
+
+ Ask your Barber to add a “Cut Throat Shave” for an extra $5
 
 \***Don’t forget to ask about Beard products!
