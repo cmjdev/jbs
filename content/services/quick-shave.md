@@ -1,6 +1,5 @@
 +++
 date = "2019-02-08T01:30:18+00:00"
-draft = true
 duration = 10
 image = ""
 price = "$10"
