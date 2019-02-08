@@ -1,10 +1,13 @@
 +++
 date = "2019-02-02T18:47:57+00:00"
-duration = ""
+duration = 30
 image = "/jbs/img/portfolio/2019/02/02/36302504_586671305034435_3143354721331314688_n.jpg"
-price = "$10-$25"
-title = "Shave"
+price = "$23"
+title = "Hot Towel Shave"
 
 +++
-* Quick Shave: Lay back,close your eyes and we’ll shave your face with a safety razor. **$10**
-* Hot Towel Shave: Just like Grandpas Barber used to do it! **$25**
+You know in those old movies, where the barber lays the guy back in the chair and wraps a Hot Towel around his face...? You guessed it! We do that!
+
+Our “Hot Towel Shave” is for the guy that seeks that Nostalgic Barber Shop feel!
+
+We start with a moisturizing cream,followed by a Hot Towel to relax and soften the face. Then we apply our warm Lather. We’ll gently stretch the skin to assure a smooth and comfortable Straight Razor Shave. Once your face is smooth,we apply a vanishing cream and another Hot Towel. We’ll double check your skin for any missed hairs and apply aftershave!
