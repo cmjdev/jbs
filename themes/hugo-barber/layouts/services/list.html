@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="masonry">
+
+{{ range .Pages }}
+<div class="w3-display-container">
+   
+    <div class="w3-display-left">
+        <h3>{{ .Title }}</h3>
+        <h6>{{ .Params.price }}</h6>
+    </div>
+    <div class="w3-display-left">
+            <h3>{{ .Title }}</h3>
+            <h6>{{ .Params.price }}</h6>
+        </div>
+    </div>
+{{ end }}
+
+</div>
+
+{{ end }}
