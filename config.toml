@@ -1,4 +1,4 @@
-baseurl = "/jbs"
+
 title = "Jones' Barber Shop"
 theme = "hugo-barber"
 languageCode = "en-us"
