@@ -9,8 +9,9 @@
 
 <style>
   body {
-    background-color:#1f1f1f;
+    background-color: #1f1f1f;
   }
+
   .bgimg {
     background-image: url('/img/bg.jpg');
     min-height: 100vh;
@@ -21,42 +22,20 @@
 </style>
 
 <body>
-  
+
 
   <div class="bgimg w3-display-container w3-text-white"></div>
 
   <div class="w3-display-middle">
     <img src="/img/jbs.png" style="width:100%">
     <div class="w3-container-padding w3-center w3-text-white">
-      <a href="https://clients.mindbodyonline.com/classic/ws?studioid=540293&stype=-9"><h1 class="w3-button w3-border">BOOK NOW</h1></a>
+      <a href="https://clients.mindbodyonline.com/classic/ws?studioid=540293&stype=-9">
+        <h1 class="w3-button w3-border">BOOK NOW</h1>
+      </a>
 
     </div>
 
   </div>
-  <div class="w3-container w3-content w3-padding-32 w3-text-grey" style="max-width:800px" id="CONTACT">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +1 (317) 331-4261<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: <a href="mailto:jonesbarbershop@icloud.com">jonesbarbershop@icloud.com</a><br>
-      </div>
-      <div class="w3-col m6">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.910170231937!2d-86.12806358429305!3d39.62922641107815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b5cfd65d71145%3A0x73b80ce25a9b20c2!2s801+Loews+Blvd%2C+Greenwood%2C+IN+46142!5e0!3m2!1sen!2sus!4v1549732125361" frameborder="0" style="border:0; width:100%; min-height: 300px" allowfullscreen></iframe>      </div>
-    </div>
-  </div>
 
-  <script>
-    // Used to toggle the menu on small screens when clicking on the menu button
-    function myFunction() {
-      var x = document.getElementById("navBar");
-      if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-      } else {
-        x.className = x.className.replace(" w3-show", "");
-      }
-    }
-  </script>
 
-</body>
-
-</html>
+ {{ partial "footer" .}}
