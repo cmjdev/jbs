@@ -1,11 +1,12 @@
 {{ define "main" }}
 
 <div class="masonry">
-    {{ range .Site.Pages }}
+    {{ range .Pages }}
     <div class="item">
         <img src="{{ .Params.image }}" width="100%">
     </div>
 
     {{ end }}
 </div>
+
 {{ end }}
