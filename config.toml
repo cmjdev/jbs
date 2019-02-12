@@ -35,18 +35,21 @@ weight = 100
      # - you're done. Happy mailing!
   email = "JonesBarberShop@icloud.com"
 
-menu:
-  main:
-  - identifier: about
-    name: about hugo
-    pre: <i class='fa fa-heart'></i>
-    url: /about/
-    weight: -110
-  - name: getting started
-    post: <span class='alert'>New!</span>
-    pre: <i class='fa fa-road'></i>
-    url: /getting-started/
-    weight: -100
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+
+  [[menu.main]]
+    name = "getting started"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/getting-started/"
+    weight = -100
  
 
   [params.social]
