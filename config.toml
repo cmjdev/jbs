@@ -1,63 +1,35 @@
-
-title = "Jones' Barber Shop"
-theme = "hugo-barber"
 languageCode = "en-us"
-
-# Enable Google Analytics by entering your tracking code
-# googleAnalytics = ""
-
+theme = "hugo-barber"
+title = "Jones' Barber Shop"
+[[menu.main]]
+name = "PHOTOS"
+url = "/portfolio/"
+weight = 3
+[[menu.main]]
+name = "SERVICES"
+post = "<span class='alert'>New!</span>"
+pre = "<i class='fa fa-road'></i>"
+url = "/services/"
+weight = 2
+[[menu.main]]
+identifier = "about"
+name = "BARBERS"
+pre = "<i class='fa fa-heart'></i>"
+url = "/BARBERS/"
+weight = 1
+[params]
+about = ["If you’re looking for fun conversation with a great atmosphere, look no further!"]
+copyright = "&copy;2019 Jones' Barber Shop"
+description = "Jones' Barber Shop"
+email = "JonesBarberShop@icloud.com"
+[params.social]
+email = "mailto:chad.b.jones2380@icloud.com"
+facebook = "https://www.facebook.com/pg/JonesBarberShop317"
+instagram = "https://instagram.com/theotherchadthebarber"
 [related]
-threshold = 50
 includeNewer = true
+threshold = 50
 toLower = true
-
 [[related.indices]]
 name = "tags"
 weight = 100
-
-[params]
-  description = "Jones' Barber Shop"
-  copyright = "&copy;2019 Jones' Barber Shop"
-  about = [
-    "If you’re looking for fun conversation with a great atmosphere, look no further!"
-  ]
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = "JonesBarberShop@icloud.com"
-
-[menu]
-
-  [[menu.main]]
-    identifier = "about"
-    name = "about hugo"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
-    weight = -110
-
-  [[menu.main]]
-    name = "getting started"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/getting-started/"
-    weight = -100
- 
-
-  [params.social]
-  facebook      = "https://www.facebook.com/pg/JonesBarberShop317"
-#  googleplus    = "full profile url in googleplus"
-  email         = "mailto:chad.b.jones2380@icloud.com"
-#  twitter       = "full profile url in twitter"
-#  linkedin      = "full profile url in linkedin"
-  instagram     = "https://instagram.com/theotherchadthebarber"
-#  youtube       = "full profile url in youtube"
-#  whatsapp      = "wa.me service link"
