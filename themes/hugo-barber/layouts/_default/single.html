@@ -1,23 +1,26 @@
 {{ define "main" }}
 
-<div style="max-height:100vh; overflow: hidden;">
-    <img src="{{ .Params.image }}" style="width:100%; filter:opacity(40%)">
-    <div class="w3-display-middle w3-text-white">
-        <h1>{{ .Title }}</h1>
-
-        {{ partial "barber-socials" . }}
-        <p class="w3-opacity">{{ .Content }}</p>
+<div class="w3-display-container">
+    <div style="max-height:100vh; overflow: hidden;">
+        <img src="{{ .Params.image }}" style="width:100%; filter:opacity(40%)">
+        <div class="w3-display-middle w3-text-white">
+            <h1>{{ .Title }}</h1>
+            {{ partial "barber-socials" . }}
+            <div class="w3-opacity w3-hide-small w3-hide-medium">{{ .Content }}</div>
+        </div>
     </div>
 </div>
-
-<div class="masonry">
+<div class="w3-container w3-hide-large w3-black w3-opacity">
+    {{ .Content }}
+</div>
+<div class="flex-container">
     {{ $related := .Site.RegularPages.Related . }}
     {{ with $related }}
 
     {{ range . }}
 
-    <div class="item">
-        <img src="{{ .Params.image }}" width="100%">
+    <div class="w3-padding">
+        <img src="{{ .Params.image }}" style="max-width:360px">
     </div>
     {{ end }}
     {{ end }}

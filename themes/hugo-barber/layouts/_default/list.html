@@ -1,11 +1,10 @@
 {{ define "main" }}
 
-<div class="masonry">
+<div class="flex-container">
     {{ range .Pages }}
-    <div class="item">
-        <img src="{{ .Params.image }}" width="100%">
-    </div>
-
+    <div class="w3-section w3-text-white" style="max-width:400px; background-color: #101010">
+        <a href="{{ .URL }}" class="w3-button"><img src="{{ .Params.image }}" width="100%">
+        <h2>{{ .Title }}</h2></a></div>
     {{ end }}
 </div>
 
