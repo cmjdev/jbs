@@ -1,6 +1,6 @@
 +++
 date = "2019-02-08T01:30:18+00:00"
-duration = 10
+duration = "10 minutes"
 image = ""
 price = "$10"
 title = "Quick Shave "
