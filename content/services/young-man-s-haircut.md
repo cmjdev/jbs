@@ -1,7 +1,7 @@
 +++
 date = "2019-02-02T18:34:45+00:00"
 duration = "30min"
-image = "/jbs/img/portfolio/2019/02/02/42421084_659959314372300_7880692632228200448_n.jpg"
+image = "/img/portfolio/2019/02/02/42421084_659959314372300_7880692632228200448_n.jpg"
 price = "$18"
 title = "Young Men’s Haircut"
 

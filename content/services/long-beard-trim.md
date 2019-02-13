@@ -2,7 +2,7 @@
 date = "2019-02-07T11:17:31+00:00"
 draft = true
 duration = 30
-image = "/jbs/img/portfolio/2019/02/07/AA5079D7-D0E6-4197-A028-84173D3330B3.jpeg"
+image = "/img/portfolio/2019/02/07/AA5079D7-D0E6-4197-A028-84173D3330B3.jpeg"
 price = 20
 title = "Long Beard Trim "
 

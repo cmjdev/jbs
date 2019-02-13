@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<div class="flex-container">
+    {{ range .Pages }}
+    <div class="w3-container w3-margin w3-text-grey" style="width:400px; background-color: #101010">
+        <h3>{{ .Title }}</h3>
+        <h5>{{ .Params.price }} - {{ .Params.duration }}</h5>
+        <h6 class="w3-center w3-padding"><a class="w3-button w3-border" href="https://clients.mindbodyonline.com/classic/ws?studioid=540293&stype=-9" target="_blank">BOOK NOW</a></h6>
+        {{ .Content }}
+    </div>
+    {{ end }}
+</div>
+
+{{ end }}

@@ -1,7 +1,7 @@
 +++
 date = "2019-02-02T18:47:57+00:00"
 duration = 30
-image = "/jbs/img/portfolio/2019/02/02/36302504_586671305034435_3143354721331314688_n.jpg"
+image = "/img/portfolio/2019/02/02/36302504_586671305034435_3143354721331314688_n.jpg"
 price = "$23"
 title = "Hot Towel Shave"
 

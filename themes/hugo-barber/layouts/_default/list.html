@@ -2,9 +2,9 @@
 
 <div class="flex-container">
     {{ range .Pages }}
-    <div class="w3-margin w3-text-white" style="max-width:400px; background-color: #101010">
-        <a href="{{ .URL }}" class="w3-button"><img src="{{ .Params.image }}" width="100%">
-        <h2>{{ .Title }}</h2></a></div>
+    <div class="w3-margin" style="max-width:400px; background-color: #101010">
+        <img src="{{ .Params.image }}" width="100%">
+    </div>
     {{ end }}
 </div>
 
