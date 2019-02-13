@@ -1,6 +1,6 @@
 +++
 date = "2019-02-02T18:41:52+00:00"
-duration = "10min"
+duration = "10 minutes"
 image = "/img/portfolio/2019/02/02/42873590_661969090837989_6388249796754276352_n.jpg"
 price = "$6"
 title = "Design"
