@@ -1,8 +1,8 @@
 +++
 date = "2019-02-07T11:17:31+00:00"
-duration = 30
+duration = "30 minutes"
 image = "/img/portfolio/2019/02/07/AA5079D7-D0E6-4197-A028-84173D3330B3.jpeg"
-price = 20
+price = "$20"
 title = "Long Beard Trim "
 
 +++
@@ -10,4 +10,4 @@ This isn’t just a Beard Trim... This is an Epic Event! A Man with a Beard like
 
 Our “Long Beard Trim” requires a little more finesse! We Shape your Beard like an artist carves a piece of marble! And finish with a clean Razor line on the cheeks!
 
-\***Don’t forget to ask about Beard products!
+**Don’t forget to ask about Beard products!**
