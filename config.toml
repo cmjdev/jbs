@@ -2,10 +2,6 @@ languageCode = "en-us"
 theme = "hugo-barber"
 title = "Jones' Barber Shop"
 [[menu.main]]
-name = "CONTACT"
-url = "#CONTACT"
-weight = 4
-[[menu.main]]
 name = "PHOTOS"
 url = "/portfolio/"
 weight = 3
