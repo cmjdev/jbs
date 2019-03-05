@@ -16,6 +16,6 @@ fields:
   name: tags
   label: tags
 pages:
-- content/portfolio/getting-close.md
-- content/portfolio/4-years-later.md
 - content/portfolio/new-sign.md
+- content/portfolio/4-years-later.md
+- content/portfolio/getting-close.md

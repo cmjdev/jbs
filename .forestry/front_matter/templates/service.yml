@@ -16,13 +16,13 @@ fields:
   name: image
   label: Example
 pages:
-- content/services/undercut-design.md
-- content/services/line-up.md
-- content/services/beard-trim.md
-- content/services/men-s-haircut.md
-- content/services/nose-hair-wax.md
-- content/services/shave.md
 - content/services/quick-shave.md
+- content/services/shave.md
+- content/services/nose-hair-wax.md
+- content/services/long-beard-trim.md
 - content/services/design.md
 - content/services/young-man-s-haircut.md
-- content/services/long-beard-trim.md
+- content/services/men-s-haircut.md
+- content/services/undercut-design.md
+- content/services/beard-trim.md
+- content/services/line-up.md

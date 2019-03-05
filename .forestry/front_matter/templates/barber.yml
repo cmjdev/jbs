@@ -31,7 +31,6 @@ fields:
   name: tags
   default: []
 pages:
-- content/barbers/chad-jones.md
-- content/barbers/dave-daniel.md
-- content/barbers/adele-blight.md
 - content/barbers/amy-koe-ranbarger.md
+- content/barbers/dave-daniel.md
+- content/barbers/chad-jones.md
