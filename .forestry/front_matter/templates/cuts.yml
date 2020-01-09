@@ -1,7 +1,6 @@
 ---
 label: Cuts
 hide_body: false
-is_partial: false
 fields:
 - type: text
   name: title
@@ -16,6 +15,6 @@ fields:
   name: tags
   label: tags
 pages:
-- content/portfolio/new-sign.md
 - content/portfolio/4-years-later.md
 - content/portfolio/getting-close.md
+- content/portfolio/new-sign.md
